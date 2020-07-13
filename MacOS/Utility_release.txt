@@ -1,0 +1,246 @@
+v1.3.0 
+      - first release of UI
+
+v1.3.1
+      - fix disassociation issue
+ 
+v1.3.2      
+      - fix encription algorithm string of mix mode
+ 
+v1.3.3
+	-fix status SSID showing incorrect 
+
+v1.3.4
+	-Install the driver also install the GUI
+	-GUI always run and detect card insertion and show up
+
+v1.3.5
+	-Reboot PC, GUI can be triggered automatically
+
+v1.3.6
+	-GUI won't close after adapter removed
+	-Fix an issue with Reboot showing incorrect
+v.1.3.7
+	-Fix the Uninstall problem
+	-remove Min button
+	-Fix SSID>32 Characters problem
+v.1.3.8
+	-Fix an issue with SSID showing incorrect
+v.1.3.9
+	-Fix an issue with channel showing incorrect
+v1.4.0
+	-Fix an issue with SSID show incorrectly
+	-Fix an issue that system can not reboot
+v1.4.1
+	-Remove profiles
+	-Show '*' in key field
+v1.4.2
+	-Fixed bug when WLAN card do not configure and click the refresh button, the UI will
+	 crash
+v1.4.3
+	-Added the Advance Setting item
+v1.4.4	
+	-Fixed Wireless Network key issue
+v1.4.5	
+	-Fixed save unchanging key issue 
+v1.4.6
+	-Fixed Sometimes UI crash
+	-Fixed Default profile issue
+	-Add Channel plan issue
+v1.4.7  
+	-Fixed adhoc edit profile issue
+v1.4.8  
+	-Add QOS Mode  
+v1.4.9  
+	-Fix channel plan array out of bound 
+v1.5.0  
+	-Fixed no mask in profile list 
+	-Fixed add profile issue
+	-Do not allow profile have the same profile name
+	-Record the advance configuration
+v1.5.1  
+	-AP mode
+	-Added PSPxlink
+	-Fixed wake up issue
+	-Fixed scan AP issue
+v1.5.2  
+	-Support MacOS10.5
+v1.5.3
+	-Integrated version
+v1.5.4
+	-Support RTL8192U 
+v1.5.5
+	-Fixed Default values issue
+v1.5.6
+	-Fixed connection issue
+	-Fixed change encryption issue
+v1.5.7
+	-Fixed string issue
+	-Fixed multiple instances issue 
+v1.5.8
+	-Profile can Overwrite
+	-Keep radio status   
+v1.5.9  (By Karl)
+	-Add Key length Limit.
+	-Fixed show "ANY" issue. 
+v1.6.0  (By Karl)
+	-Fixed string "Set Default" issue.
+        -Add DISASSOCIATE Before setting Network profile.
+v1.6.1  (By Karl)
+        -Support Window control(X:Close / -:miniaturize / +:max) . 
+        -Revises Check if process have already run.
+v1.6.2  (By Karl)
+        -Fixed Bug for Soft RF- ON/OFF.
+        -Add reLink for Advance_Apply. 
+v1.6.3  (By Karl)
+        -Support sort for Available Network List.
+        -Support WPA-None for Aa-Hoc Mode. 
+        -Support Hex 64 Key.
+
+v1.6.4  (By Karl)
+        - Fixed path bug for save profile.
+        - Support multi-language(TW/Japanese/English).
+
+v1.6.5  (By Karl)
+        - support 11n Rtl8192SU.
+
+v1.6.6  (By Karl)
+        - Fixed save bug for Overwrite profile.
+
+v1.6.7  (By Karl)
+        -Add Support show LinkSpee & HTinfo.
+		//LinkStatus Page
+		LinkSpeed_SHOW = "1"; //Show/Hide
+		HTinfo_SHOW = "1"
+        -Support control Show/Hide Advance Page.
+		//Advance_Page_SHOW = "1";
+        -Support control Show/Hide Wireless Mode.
+                //WirelessMode_SHOW = "0";
+        -Support control Show/Hide ChannelPlan.
+                //ChannelPlan_SHOW = "0";
+        -Support control Show/Hide Fragment.
+                //Fragment_SHOW = "1";
+        -Support control Show/Hide RTS.
+                //RTS_SHOW = "1";
+        -Support control Show/Hide Preamble Mode.
+                //PreambleMode_SHOW = "1";
+        -Support control Show/Hide QOS Mode.
+                //QOSMode_SHOW = "1";
+        -Support control Show/Hide PSP XLin Mode.
+                //PSPXLinkMode_SHOW = "1";
+
+v1.6.8  (By Karl)
+        -Add Support AUTO Link Default Infrastructure Profile (30s chack).
+
+v1.6.9  (By Karl)
+        -Add Support ASCII format chack(show error MSG).
+        -Fix input SSID>32 Characters problem.
+
+v1.7.0  (By Karl)
+        -Fix Support ASCII format chack(show error MSG).
+        -Fix Support Hex64 Characters format chack(show error MSG).
+
+v1.7.1  (By Karl)
+        -Add Support double-click on a AvailableNetworkTable row(Do Add Profile).
+        -Add Support double-click on a ProfilesTable row(Do Profile Apply).
+
+v1.7.2  (By Karl)     
+        -Add ReTry TimeOut(3m)  for  AUTO Link Default Infrastructure Profile.
+
+v1.7.3  (By Mars/Karl)     
+        -Add WPS page.
+        -Support control Show/Hide WPS Page.
+
+v1.7.4       
+        -Fix WPS connection issue.
+        -Fix RF state.
+
+v1.7.5       
+        -Customize Japanese UI.
+
+v1.7.6       
+        -Customize Japanese UI.
+	-Fix Hidden-AP connection issue.
+	-Fix Xlink misstated.
+	-Fix Rate Info issue.
+
+v1.7.7 
+	-Customize Japanese UI.  
+
+v1.7.8 
+	-Add sort function in AP list.  
+
+v1.7.9 
+	-Fix un-config WPS issue.  
+
+v1.8.0 
+	-UI Customization .  
+
+v1.8.1 
+	-Support WPS Hw Button.  
+
+v1.8.2 
+	-Fix Sleep/Awake reconnect issue.  
+
+v1.8.3 
+	-UI Customization . 
+
+v1.8.4 
+	-Fix WPS Pin code issue. 
+
+v1.8.5 
+	-HiddenAP SSID Display issue.
+
+v1.8.6 
+	-Fix WPS LED issue.
+
+v1.8.7 
+	-Combine x86 and ppc package.
+
+v1.8.8
+       - Store 4 WEP keys.
+
+v1.8.9
+       - Fix ASCII WEP key issue.
+
+v1.9.0
+       - Add Driver Version.
+       - Add WPS Process Timer Bar.
+
+v1.9.1
+       - Delete Profile would disconnect.
+       - Revise warning dialog.
+
+v1.9.2
+       - German customization.
+
+v1.9.3
+       - Support Dual Band.
+
+v1.9.4
+       - Fix connected without refreshing "Available Network" page.
+
+v1.9.5
+       - Fix HW WPS and HW Radio button process.
+       - Fix incorrect Fragment/RTS Threshold.
+       - Fix Channel Plan(World Wide 13) Adhoc issue.
+       - Fix Tiger LinkSpeed.
+
+v1.9.6 
+       - Support MacOSX Lion.
+
+v1.9.7 
+       - Revise HW WPS and HW Radio button process.
+
+v1.9.8
+       - Fix Led issue.
+
+v1.9.9 
+       - Profile Name Length Limit.
+       - Revise "Click behavior" on SiteSurvey List.
+
+v2.0.0 
+       - Fix WPS Process Crash.
+
+v2.0.1 
+       - For UI Generalization.
